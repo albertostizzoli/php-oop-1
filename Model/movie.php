@@ -8,7 +8,6 @@ class Movie
     private float $vote_average;
     private string $poster_path;
     private string $original_language;
-
     public function __construct($id, $title, $subtitle, $overview, $vote, $image, $language)
     {
         $this->id = $id;

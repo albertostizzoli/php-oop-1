@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/Model/movie.php';
+include __DIR__ . '/Model/Movie.php';
 
 ?>
 
@@ -18,7 +18,7 @@ include __DIR__ . '/Model/movie.php';
 </head>
 <body>
     <h1 class="text-center text-white bg-danger">MOVIES</h1>
-    <div class="container">
+    <div class="container mt-4">
         <div class="row gy-4">
             <?php foreach ($movies as $movie) {
                 $movie->printCard();
