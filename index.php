@@ -1,7 +1,7 @@
 <?php
 
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +16,6 @@
     <title>PHP-OOP-1</title>
 </head>
 <body>
-    
+
 </body>
 </html>
